@@ -1,3 +1,60 @@
-body {
-    background-color: antiquewhite;
+* {
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.conatiner {
+    background-color: rgba(0, 0, 0, 0.322);
+    width: 65rem;
+    height: 40rem;
+    display: flex;
+    position: absolute;
+    left: 22%;
+    top: 8rem;
+    border-radius: 20px;
+    opacity: 0.4;
+}
+
+.circle1 {
+    background:linear-gradient(to top, rgb(255,251, 0), rgb(255, 123, 0));
+    border-radius: 300px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    position: absolute;
+    left: 200px;
+    bottom: 50px;
+}
+
+.circle2 {
+    background: linear-gradient(to top, rgb(171, 4, 212), rgb(125, 7, 141));
+    border-radius: 300px;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    position: absolute;
+    left: 800px;
+    bottom: 660px;
+}
+
+.circle3 {
+    background: linear-gradient(to bottom, rgb(0, 255, 255), rgb(38, 101, 117));
+    border-radius: 300px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    position: absolute;
+    left: 850px;
+    bottom: 200px;
+}
+
+.circle4 {
+    background: linear-gradient(to bottom, rgb(255, 0, 128), rgb(143, 21, 88));
+    border-radius: 300px;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    position: absolute;
+    left: 1201px;
+    bottom: 300px;
 }
