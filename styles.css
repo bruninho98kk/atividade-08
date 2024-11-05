@@ -1,19 +1,7 @@
 * {
     margin: 0;
-    background-color: rgb(255, 255, 255);
 }
 
-.conatiner {
-    background-color: rgba(0, 0, 0, 0.322);
-    width: 65rem;
-    height: 40rem;
-    display: flex;
-    position: absolute;
-    left: 22%;
-    top: 8rem;
-    border-radius: 20px;
-    opacity: 0.4;
-}
 
 .circle1 {
     background:linear-gradient(to top, rgb(255,251, 0), rgb(255, 123, 0));
@@ -57,4 +45,56 @@
     position: absolute;
     left: 1201px;
     bottom: 300px;
+}
+
+.retangulo {
+  width: 60rem;
+  height: 40rem;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  background-color: rgba(128, 128, 128, 0.644);
+  position: absolute;
+  left: 22%;
+  top: 8rem;
+  z-index: 9999;
+  backdrop-filter: blur(5px);
+}
+
+.left {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    padding: 2rem;
+    align-content: stretch;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 25px;
+    background-color: rgba(240, 248, 255, 0);
+}
+
+.right {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    padding: 2rem;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 20px;
+    background-color: rgba(240, 248, 255, 0);
+}
+
+.email {
+    width: 60px;
+    height: 50px;
+    border-radius: 30%;
+}
+
+.senha {
+    width: 60px;
+    height: 50px;
+    border-radius: 30%;
 }
