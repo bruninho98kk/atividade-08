@@ -28,8 +28,8 @@
 .circle3 {
     background: linear-gradient(to bottom, rgb(0, 255, 255), rgb(38, 101, 117));
     border-radius: 300px;
-    width: 150px;
-    height: 150px;
+    width: 220px;
+    height: 220px;
     display: flex;
     position: absolute;
     left: 850px;
@@ -65,25 +65,25 @@
     display: flex;
     width: 50%;
     height: 100%;
-    padding: 2rem;
     align-content: stretch;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    border-radius: 20px;
     font-size: 25px;
-    background-color: rgba(164, 172, 180, 0.404);
+    background-color: rgba(57, 61, 65, 0.404);
 }
 
 .right {
     display: flex;
     width: 50%;
     height: 100%;
-    padding: 2rem;
     align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
+    border-radius: 20px;
     font-size: 20px;
-    background-color: rgba(69, 77, 85, 0.247);
+    background-color: rgba(114, 98, 98, 0.404);
 }
 
 .email {
