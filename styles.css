@@ -53,12 +53,12 @@
   display: flex;
   align-items: center;
   border-radius: 20px;
-  background-color: rgba(128, 128, 128, 0.644);
+  background-color: rgba(189, 186, 186, 0.644);
   position: absolute;
   left: 22%;
   top: 8rem;
   z-index: 9999;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(20px);
 }
 
 .left {
@@ -71,7 +71,7 @@
     align-items: center;
     justify-content: space-evenly;
     font-size: 25px;
-    background-color: rgba(240, 248, 255, 0);
+    background-color: rgba(164, 172, 180, 0.404);
 }
 
 .right {
@@ -79,22 +79,133 @@
     width: 50%;
     height: 100%;
     padding: 2rem;
-    justify-content: space-around;
     align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
     font-size: 20px;
-    background-color: rgba(240, 248, 255, 0);
+    background-color: rgba(69, 77, 85, 0.247);
 }
 
 .email {
-    width: 60px;
+    width: 450px;
     height: 50px;
-    border-radius: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(230, 230, 230);
+    border-radius: 80px;
+    font-size: 20px;
 }
 
 .senha {
-    width: 60px;
+    width: 450px;
     height: 50px;
-    border-radius: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(230, 230, 230);
+    border-radius: 80px;
+    font-size: 20px;
 }
+
+
+
+.entrar {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(230, 230, 230);
+    border-radius: 80px;
+    font-size: 15px;
+}
+
+.criar-conta {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(230, 230, 230);
+    border-radius: 80px;
+    font-size: 15px;
+}
+
+.facebook {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.face {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    border-radius: 80px;
+}
+
+.whatsapp {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.whats {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+   
+    border-radius: 80px;
+}
+
+.instagram {
+    width: 30;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.inta {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+
+.redes-sociais {
+    display: flex;
+    width: 80;
+    height: 80px;
+    padding: 2rem;
+    flex-direction: row;
+    border-radius: 100%;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
